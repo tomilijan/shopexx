@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+.dosis{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #599c86;
+}
+
+.profile-card {
+    background-color: #f5f7f8;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.profile-card h2 {
+    margin-bottom: 20px;
+    color: #1f1f1f;
+    text-align: center;
+}
+
+.profile-card p {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button {
+    background-color: #599c86;
+    color: #f5f7f8;
+    font-size: 15.5px;
+    border: 1px solid #1f1f1f;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.update-button:hover {
+    background-color: #f4ce14;
+}
+
+.delete-button {
+    background-color: #f4ce14;
+    color: #f5f7f8;
+    font-size: 15.5px;
+    border: 1px solid #1f1f1f;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.delete-button:hover {
+    background-color: #599c86;
+}

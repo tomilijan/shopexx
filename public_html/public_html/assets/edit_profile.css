@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+.dosis{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+    background-color: #599c86;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 400px;
+    background-color: #f5f7f8;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1f1f1f;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1f1f1f;
+}
+
+input[type="text"] {
+    background-color: #f5f7f8;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #1f1f1f;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #f4ce14;
+    color: #1f1f1f;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 1px solid #1f1f1f;
+    padding: 7.5px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #f4ce14;
+}

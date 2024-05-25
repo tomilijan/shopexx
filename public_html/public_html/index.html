@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/homestyle.css">
+    <title>ShopEx</title>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="LOGO.png" alt="Shopex">
+        <div class="links">
+            <a href="./Login/sign.php" class="signup">Sign Up</a>
+            <a href="./Login/log.php" class="login">Login</a>
+
+        </div>
+    </nav>
+
+    <div class="promotion">
+        <div class="intro">
+            <h1>NEW!!!</h1>
+            <h2>DISCOVERIES</h2>
+            <h2>at ShopEx</h2>
+            <p>"Your Trusted Partner in Shopping Adventures"</p>
+        </div>
+        <div class="carousel">
+            <img class="carousel_image" src="banner1.jpg" alt="Image 1">
+            <img class="carousel_image" src="./image/banner1.jpg">
+            <img class="carousel_image" src="image3.jpg" alt="Image 3">
+        </div>
+    </div>
+
+
+    <script>
+        const images = document.querySelectorAll('.carousel_image');
+        let currentImageIndex = 0;
+
+        function showImage(index) {
+            images.forEach((image, i) => {
+                if (i === index) {
+                    image.classList.add('active');
+                } else {
+                    image.classList.remove('active');
+                }
+            });
+        }
+
+        function nextImage() {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            showImage(currentImageIndex);
+        }
+
+        setInterval(nextImage, 3000);
+    </script>
+
+</body>
+
+</html>

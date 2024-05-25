@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+.dosis{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #599c86;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 325px;
+    background-color: #f5f7f8;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input_field {
+    margin-bottom: 15px;
+}
+
+.input_field input{
+    background-color: #f5f7f8;
+    height: 35.5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1f1f1f;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #495e57;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.submit_box {
+    text-align: center;
+}
+
+.submit_box .btn {
+
+    background-color: #f4ce14;
+    color: #1f1f1f;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 1px solid #1f1f1f;
+    padding: 7.5px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    border: 1px solid #1f1f1f;
+    background-color: #599c86;
+    color: #f5f7f8;
+}
+
+.create {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.create a {
+    color: 007bff;
+    text-decoration: none;
+    font-size: 15px;
+}
